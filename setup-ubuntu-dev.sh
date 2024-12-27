@@ -140,7 +140,7 @@ check_success "Warp installation"
 log_message "Installing NVIDIA drivers..."
 
 sudo apt update
-sudo apt install -y nvidia-driver-460
+# sudo apt install -y nvidia-driver-460
 check_success "NVIDIA driver installation"
 
 # ==============================================
